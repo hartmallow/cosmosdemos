@@ -1,0 +1,14 @@
+Please walk through the following for demonstrating MongoDB to Azure CosmosDB for MongoDB API.
+
+1.	Download MongoDB Community Edition for Windows from this location - https://www.mongodb.com/download-center/community?jmp=docs 
+2.	Download Studio-3T from this location - https://studio3t.com/download/ 
+3.	Connect to the local MongoDB server (created in step 1) using Studio 3T and create database and collection 
+4.	Import a JSON payload – Use a generator from this location - https://next.json-generator.com/ 
+5.	Connect to Azure CosmosDB for MongoDB API using Studio 3T.  Make sure you populate authentication key in the second tab and enable SSL in the 3rd tab.
+6.	Demonstrate import of data into Azure CosmosDB for MongoDB API using Studio-3T
+
+Studio-3T uses MongoDB API under the covers and connects to Azure CosmosDB for MongoDB API seamlessly thus proving that MongoDB customers need not rewrite their code to connect to Azure CosmosDB.
+
+If you have additional time, you can demonstrate the same for Cassandra DB.  Cassandra Datastax supports Column Store and you can demonstrate creating Keyspace and Columnstore tables in Cassandra SQL using CQL and using a java code to connect to Azure CosmosDB for Cassandra. 
+
+In my demo I originally tried to use the DTUI tool for migration, but the tool failed on me, so I had to use Studio-3T to demonstrate data migration.
